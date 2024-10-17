@@ -14,6 +14,7 @@
 		04F056302B346FB5001F63EB /* MathGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0562F2B346FB5001F63EB /* MathGameTests.swift */; };
 		04F0563A2B346FB6001F63EB /* MathGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F056392B346FB6001F63EB /* MathGameUITests.swift */; };
 		04F0563C2B346FB6001F63EB /* MathGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0563B2B346FB6001F63EB /* MathGameUITestsLaunchTests.swift */; };
+		04F056492B347229001F63EB /* AnswerNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F056482B347229001F63EB /* AnswerNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		04F056352B346FB5001F63EB /* MathGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F056392B346FB6001F63EB /* MathGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathGameUITests.swift; sourceTree = "<group>"; };
 		04F0563B2B346FB6001F63EB /* MathGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04F056482B347229001F63EB /* AnswerNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				04F056202B346FB3001F63EB /* ContentView.swift */,
 				04F056222B346FB5001F63EB /* Assets.xcassets */,
 				04F056242B346FB5001F63EB /* Preview Content */,
+				04F056482B347229001F63EB /* AnswerNumber.swift */,
 			);
 			path = MathGame;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F056212B346FB3001F63EB /* ContentView.swift in Sources */,
+				04F056492B347229001F63EB /* AnswerNumber.swift in Sources */,
 				04F0561F2B346FB3001F63EB /* MathGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +434,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +464,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
